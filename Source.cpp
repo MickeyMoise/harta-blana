@@ -127,9 +127,9 @@ int** creareMatrieHartaNumere(int &randuri, int &coloane)
         fin >> aux.cerc.tipZona;
         fin >> aux.cerc.raza;
         
-        cout << "ok1" << " ";
+        
         cerc(aux.x, aux.y, aux.cerc.raza, matriceHartaBaza, aux.cerc.tipZona, randuri, coloane);
-        cout << "ok2" << endl;
+        
 
         vectorAeroporturi.push_back(aux);
 
